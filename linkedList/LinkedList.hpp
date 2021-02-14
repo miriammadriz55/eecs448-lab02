@@ -49,7 +49,7 @@ bool LinkedList<T>::search(T value) const
 
 	if(temp != nullptr)
 	{
-		for(int i=0; i < size; i++)
+		for(int i=0; i < m_size; i++)
 		{
 			if(temp->getValue()==value)
 			{
@@ -135,7 +135,7 @@ bool LinkedList<T>::removeBack()
 	}
 	else
 	{
-		for(int i=0; i<size; i++)
+		for(int i=0; i< m_size; i++)
 		{
 			//within the same loop update "secondintoLast"
 			secondintoLast=LastNode;
