@@ -121,7 +121,7 @@ bool LinkedList<T>::removeBack()
 	//edge case
 	if(m_size== 0)
 	{
-		//returns fasle because it is empty
+		//returns false because it is empty
 		return(isRemoved);
 	}
 	else if(m_size==1)
