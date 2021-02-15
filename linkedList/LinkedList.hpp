@@ -135,6 +135,7 @@ bool LinkedList<T>::removeBack()
 	}
 	else
 	{
+		//set loop so it only updates m_size-1 times
 		for(int i=0; i< m_size-1; i++)
 		{
 			//within the same loop update "secondintoLast"
