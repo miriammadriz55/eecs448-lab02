@@ -138,7 +138,7 @@ bool LinkedList<T>::removeBack()
 		for(int i=0; i< m_size; i++)
 		{
 			//within the same loop update "secondintoLast"
-			secondintoLast=LastNode;
+			secondintoLast=lastNode;
 			//within a loop used a node function to update last node
 			lastNode= lastNode-> getNext();
 		}
